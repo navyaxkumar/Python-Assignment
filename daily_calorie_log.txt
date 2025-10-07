@@ -1,0 +1,180 @@
+--------------OUTPUT 1----------------
+
+===========================================
+        Daily Calorie Tracker
+===========================================
+
+This program helps you keep track of your meals and total calorie intake.
+
+How many meals did you have today? 3
+
+Meal 1
+Enter meal name: Breakfast
+Enter calories for this meal: 4328
+
+Meal 2
+Enter meal name: Lunch
+Enter calories for this meal: 1241
+
+Meal 3
+Enter meal name: Dinner
+Enter calories for this meal: 9584
+
+Enter your daily calorie limit: 4000
+
+-------------------------------------------
+You have exceeded your daily limit by 11153.0  calories.
+-------------------------------------------
+
+Today's Calorie Summary:
+
+Meal Name          Calories
+-------------------------------------------
+Breakfast           4328.0
+Lunch               1241.0
+Dinner              9584.0
+-------------------------------------------
+Total Calories: 15153.0
+Average per Meal: 5051.0
+-------------------------------------------
+
+Do you want to save this report? (yes/no): yes
+
+Report saved successfully in daily_calorie_log.txt
+
+Thank you for using the Daily Calorie Tracker!
+
+
+
+
+
+--------------OUTPUT 2----------------
+
+
+
+
+
+===========================================
+        Daily Calorie Tracker
+===========================================
+
+This program helps you keep track of your meals and total calorie intake.
+
+How many meals did you have today? 5
+
+Meal 1
+Enter meal name: Breakfast
+Enter calories for this meal: 2384
+
+Meal 2
+Enter meal name: Snack 1
+Enter calories for this meal: 432
+
+Meal 3
+Enter meal name: Lunch
+Enter calories for this meal: 14134
+
+Meal 4
+Enter meal name: Snack 2
+Enter calories for this meal: 509
+
+Meal 5
+Enter meal name: Dinner
+Enter calories for this meal: 4315
+
+Enter your daily calorie limit: 5000
+
+-------------------------------------------
+You have exceeded your daily limit by 16774.0  calories.
+-------------------------------------------
+
+Today's Calorie Summary:
+
+Meal Name          Calories
+-------------------------------------------
+Breakfast           2384.0
+Snack 1             432.0
+Lunch               14134.0
+Snack 2             509.0
+Dinner              4315.0
+-------------------------------------------
+Total Calories: 21774.0
+Average per Meal: 4354.8
+-------------------------------------------
+
+Do you want to save this report? (yes/no): yes
+
+Report saved successfully in daily_calorie_log.txt
+
+Thank you for using the Daily Calorie Tracker!
+
+
+
+
+
+
+
+
+
+
+
+
+--------------OUTPUT 3----------------
+
+
+
+
+
+
+
+
+
+
+===========================================
+        Daily Calorie Tracker
+===========================================
+
+This program helps you keep track of your meals and total calorie intake.
+
+How many meals did you have today? 4
+
+Meal 1
+Enter meal name: breakfast
+Enter calories for this meal: 2345
+
+Meal 2
+Enter meal name: lunch
+Enter calories for this meal: 3000
+
+Meal 3
+Enter meal name: snacks
+Enter calories for this meal: 500
+
+Meal 4
+Enter meal name: dinner
+Enter calories for this meal: 2400
+
+Enter your daily calorie limit: 5009
+
+-------------------------------------------
+You have exceeded your daily limit by 3236.0  calories.
+-------------------------------------------
+
+Today's Calorie Summary:
+
+Meal Name          Calories
+-------------------------------------------
+breakfast           2345.0
+lunch               3000.0
+snacks              500.0
+dinner              2400.0
+-------------------------------------------
+Total Calories: 8245.0
+Average per Meal: 2061.25
+-------------------------------------------
+
+Do you want to save this report? (yes/no): yes
+
+Report saved successfully in daily_calorie_log.txt
+
+Thank you for using the Daily Calorie Tracker!
