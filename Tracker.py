@@ -1,23 +1,26 @@
 # -------------------------------------------------
 # Name: Navya Kumar
 # Roll No: 2501410054
-# Date: 6 October 2025
+# Date: 7 October 2025
 # Project: Daily Calorie Tracker
 # -------------------------------------------------
 
 import datetime
 
+# Printing the banner
 print("===========================================")
 print("        Daily Calorie Tracker")
 print("===========================================\n")
 
 print("This program helps you keep track of your meals and total calorie intake.\n")
-
+# Asking user for number of meals
 meal_count = int(input("How many meals did you have today? "))
 
+# Empty lists for storing values later
 meal_names = []
 meal_calories = []
 
+# Loop to store n number of meals, (as entered by user)
 for i in range(meal_count):
     print("\nMeal", i + 1)
     name = input("Enter meal name: ")
@@ -25,11 +28,13 @@ for i in range(meal_count):
     meal_names.append(name)
     meal_calories.append(cal)
 
+# Calculating total and avg calories
+
 total_calories = sum(meal_calories)
 average_calories = total_calories / meal_count
-
+# Asking for calorie limit
 limit = float(input("\nEnter your daily calorie limit: "))
-
+# Condition to check if the user exceeded the calorie limit or not
 print("\n-------------------------------------------")
 if total_calories > limit:
     print(f"You have exceeded your daily limit by {total_calories - limit}  calories.")
@@ -53,6 +58,8 @@ print(f"Average per Meal:{average_calories}")
 print("-------------------------------------------")
 
 save = input("\nDo you want to save this report? (yes/no): ")
+
+# Saving the data into a file
 
 if save.lower() == "yes":
     file = open("daily_calorie_log.txt", "a")
